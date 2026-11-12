@@ -1,7 +1,8 @@
 #!/bin/bash
 # Disk Usage Monitoring Script
 
-LOG_DIR="../logs"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+LOG_DIR="$SCRIPT_DIR/../logs"
 mkdir -p "$LOG_DIR"
 LOG_FILE="$LOG_DIR/disk_usage.log"
 
