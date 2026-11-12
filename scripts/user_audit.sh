@@ -16,4 +16,4 @@ else
     echo "Current logged-in user: $USERNAME" >> "$LOG_FILE"
 fi
 
-echo "User audit complete. Saved to $LOG_FILE"s
+echo "User audit complete. Saved to $LOG_FILE"
